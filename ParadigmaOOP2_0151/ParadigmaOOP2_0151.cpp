@@ -11,3 +11,12 @@ public:
     //  cout << "Pesan dari seseorang" << endl;
     //}
 };
+
+class joko : public seseorang {
+public:
+    //Deklarasi
+    void pesan() {
+        //implementasi
+        cout << "Pesan dari Joko" << endl;
+    }
+};
