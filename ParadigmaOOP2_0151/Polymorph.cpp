@@ -12,7 +12,7 @@ public:
     //}
 };
 
-class joko : public seseorang {
+class Joko : public seseorang {
 public:
     //Deklarasi
     void pesan() {
@@ -27,3 +27,17 @@ public:
         cout << "Pesan dari Lia" << endl;
     }
 };
+
+int main() {
+    seseorang* obyek;
+    Joko a;
+    Lia b;
+
+    obyek = &a;
+    obyek->pesan();
+    obyek = &b;
+    obyek->pesan();
+
+    // Akses method pesan() dari class seseorang
+    // a.seseorang::pesan();
+}
