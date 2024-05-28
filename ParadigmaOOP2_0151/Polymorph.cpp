@@ -4,12 +4,13 @@ using namespace std;
 class seseorang {
 public:
     // pure virtual function
-    virtual void pesan() = 0;
+    // virtual void pesan() = 0;
 
     //Virtual function biasa
-    //virtual void pesan() {
-    //  cout << "Pesan dari seseorang" << endl;
-    //}
+
+    virtual void pesan() {
+      cout << "Pesan dari seseorang" << endl;
+    }
 };
 
 class Joko : public seseorang {
@@ -39,5 +40,5 @@ int main() {
     obyek->pesan();
 
     // Akses method pesan() dari class seseorang
-    // a.seseorang::pesan();
+     a.seseorang::pesan();
 }
