@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ParadigmaOOP2_0151.cpp">
+    <ClCompile Include="Polymorph.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
